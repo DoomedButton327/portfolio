@@ -498,7 +498,7 @@ async function loadFileTree(path, container, depth = 0) {
     });
 
     const ul = document.createElement('div');
-    ul.className = depth === 0 ? '' : 'tree-children';
+    ul.className = '';
 
     items.forEach(item => {
       const row = document.createElement('div');
